@@ -4,7 +4,19 @@ This is the demo present in discussion 1 (with additional materials) in April 3r
 ## Information
 This is the 2nd commit containing full implementation of Student class and main.cpp use Student class to make an Student object.
 
-## How to Compile and Run your code Right Now (without a Makefile)
+## Makefile
+We do not really need the rules if we can make use of the Makefile implicit rules for x.cpp
+
+The omitted rules for target main and Student.o are as below:
+```
+$(CXX) $(CXXFLAGS) main.cpp Student.o -o main
+```
+
+```
+$(CXX) $(CXXFLAGS) Student.cpp -c
+```
+
+## How to Compile without a Makefile
 
 ### Compile Separately
 The below command compiles Student.o object files
