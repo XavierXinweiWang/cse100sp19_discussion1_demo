@@ -2,7 +2,13 @@
 This is the demo present in discussion 1 (with additional materials) in April 3rd.
 
 ## Information
-This is the 2nd commit containing full implementation of Student class and main.cpp use Student class to make an Student object.
+This is the final commit containing some additional object/reference/pointer practices in main.cpp that I did not get to talk about in discussions.
+
+## How to Use this repo
+Feel free to clone this repo to your local or even fork it to do more manipulations!
+
+In your cloned local repo, you can use "git log" to see the full history of each different steps we went over in discussion, and use "git checkout <commit_number>" to checkout certain versions.
+
 
 ## Makefile
 We do not really need the rules if we can make use of the Makefile implicit rules for x.cpp
